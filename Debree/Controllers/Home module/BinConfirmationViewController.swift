@@ -37,9 +37,9 @@ class BinConfirmationViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         start()
-        setupDisplayText()
-        ref = Database.database().reference().child("bins")
-        updateFirebase()
+//        setupDisplayText()
+//        ref = Database.database().reference().child("bins")
+//        updateFirebase()
     }
     
     //MARK: - Functions
